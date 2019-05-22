@@ -1,0 +1,36 @@
+ body{background: rgb(54, 54, 54);color: rgb(233, 230, 230);margin: 0;padding: 0;}
+        select{width: 20%;}
+        li,ul{list-style-type: none;padding: 0;color: black;}
+        input[type="text"]{padding:5px 15px; background:rgb(213, 214, 214); border: 0 none;
+                cursor:pointer;
+                -webkit-border-radius: 5px;
+                border-radius: 5px; 
+    }
+    .styled-select {
+        background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+        height: 29px;
+        overflow: hidden;
+        width: 100px;
+     }
+     .styled-select select {
+        background: transparent;
+        border: none;
+        font-size: 14px;
+        height: 29px;
+        padding: 5px; /* If you add too much padding here, the options won't show in IE */
+        width: 120px;
+     }
+     .semi-square {
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+     }
+     .blue { background-color: #3b8ec2; }
+     .blue select    { color: black; }
+input[type="text"]:hover{border:1px rgb(88, 215, 247) solid;}        
+#outcontainer{width: 80%;text-align: center;transform: translate(10%,20%);}
+span,p{font-size: 20px;font-family: Arial, Helvetica, sans-serif;margin: 3% 0;}
+#ShowList{float: left;width: 50%;}
+#addList{background: #97FF6B;}
+#expList{background: #FFC71F;}
+.listyle{border:2px black solid;}
